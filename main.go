@@ -8,5 +8,7 @@ func main() {
 		parallel()
 	} else if o == "walk" {
 		walk()
+	} else if o == "limit" {
+		limit()
 	}
 }
