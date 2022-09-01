@@ -10,5 +10,10 @@ func main() {
 		walk()
 	} else if o == "limit" {
 		limit()
+	} else if o == "geo" {
+		geo()
+	} else if o == "json" {
+		json_test()
 	}
+
 }
